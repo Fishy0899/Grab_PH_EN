@@ -44,18 +44,21 @@
   font-weight: 500;
   display: inline-block;
 }
-.swipe-to-check-the-projects-th-wrapper {
+.swipe-for-some-surprising-fact-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
+.every-1-or,
+.last-description {
+  position: absolute;
+  margin: 0 !important;
+}
 .last-description {
   width: 179px;
   height: 8.82%;
-  margin: 0 !important;
-  position: absolute;
   top: 87.5%;
   bottom: 3.68%;
   left: calc(50% - 0px);
@@ -68,25 +71,14 @@
 }
 .every-1-or {
   width: 204px;
-  position: relative;
+  height: 92px;
+  top: 70.5%;
+  left: calc(50% - 180px);
   letter-spacing: -0.01em;
   line-height: 23px;
   font-weight: 500;
   white-space: pre-wrap;
   display: inline-block;
-}
-.screen1-description {
-  width: 327px;
-  height: 9.2%;
-  margin: 0 !important;
-  position: absolute;
-  top: 70.5%;
-  bottom: 20.3%;
-  left: calc(50% - 180px);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
   z-index: 3;
 }
 .heres-what-happens {
@@ -144,7 +136,7 @@
   align-items: center;
   justify-content: flex-start;
   z-index: 5;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
 }
 .animation1-icon {
   width: 450px;
@@ -164,7 +156,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 52px 46px 40px;
+  padding: 52px var(--padding-27xl) var(--padding-21xl);
   box-sizing: border-box;
   position: relative;
   gap: 313px;
@@ -173,17 +165,17 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .greenline-icon1 {
-  width: 296.8px;
-  height: 64.59%;
+  width: 293px;
+  height: 66.03%;
   position: absolute;
   margin: 0 !important;
-  top: 26.97%;
-  bottom: 8.45%;
+  top: 25.95%;
+  bottom: 8.02%;
   left: calc(50% - 161px);
   max-height: 100%;
   z-index: 0;
@@ -195,41 +187,25 @@
   font-weight: 800;
 }
 .they-are-natural-container {
-  width: 298px;
+  width: 304px;
   position: absolute;
   margin: 0 !important;
-  top: 35.7%;
+  top: 34.35%;
   left: calc(50% - 180px);
-  letter-spacing: -0.01em;
   line-height: 22px;
-  display: inline-block;
   z-index: 1;
 }
-.ecomatcher-the-ngo,
-.span {
-  font-weight: 800;
-  font-family: Inter;
-}
-.span {
-  font-weight: 500;
-}
-.oh-were-not-the-only-ones-ro {
-  margin: 0;
-}
-.tree-planting-journey-too {
-  margin: 0;
-  font-weight: 500;
-}
 .did-you-know,
-.oh-were-not-container {
+.oh-were-not-container,
+.they-are-natural-container {
   letter-spacing: -0.01em;
   display: inline-block;
 }
 .oh-were-not-container {
-  width: 279px;
+  width: 323px;
   position: absolute;
   margin: 0 !important;
-  top: 75.72%;
+  top: 72.85%;
   left: calc(50% - 180px);
   line-height: 22px;
   z-index: 2;
@@ -244,11 +220,11 @@
   width: 329px;
   height: 200px;
   position: relative;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
   line-height: 40px;
   font-weight: 800;
   font-family: inherit;
-  color: #005339;
+  color: var(--color-darkslategray);
   display: inline-block;
 }
 .button1-icon,
@@ -258,9 +234,9 @@
 }
 .screen3-title {
   width: 352px;
-  height: 21.5%;
-  top: 5.76%;
-  bottom: 72.74%;
+  height: 20.68%;
+  top: 5.54%;
+  bottom: 73.78%;
   left: calc(50% - 180px);
   display: flex;
   flex-direction: column;
@@ -276,9 +252,9 @@
   padding: 0;
   background-color: transparent;
   width: 187.5px;
-  height: 4%;
-  top: 91.98%;
-  bottom: 4.02%;
+  height: 3.85%;
+  top: 92.24%;
+  bottom: 3.91%;
   left: calc(50% - 11.2px);
   max-height: 100%;
   z-index: 4;
@@ -307,13 +283,24 @@
 .clip-path-icon {
   object-fit: contain;
 }
+.mangrove-roots-can {
+  font-weight: 500;
+  font-family: var(--font-inter);
+}
+.mangrove-roots-can-slow-down {
+  margin: 0;
+}
+.the-shore {
+  margin: 0;
+  font-weight: 500;
+}
 .mangrove-roots-can-container {
   position: absolute;
-  top: 69.79%;
-  left: calc(50% - 89.62px);
+  top: 69.78%;
+  left: calc(50% - 92.62px);
   line-height: 14px;
   display: inline-block;
-  width: 169.9px;
+  width: 176.1px;
   transform: rotate(6.3deg);
   transform-origin: 0 0;
 }
@@ -332,17 +319,17 @@
 }
 .image1 {
   width: 230.4px;
-  height: 23.38%;
-  top: 47.98%;
-  bottom: 28.65%;
+  height: 22.49%;
+  top: 46.16%;
+  bottom: 31.35%;
   left: calc(50% - 124.8px);
   z-index: 5;
-  font-size: 11px;
+  font-size: var(--font-size-2xs);
 }
 .animation3-icon {
   width: 450px;
-  height: 63.98%;
-  top: 35.99%;
+  height: 61.56%;
+  top: 38.41%;
   bottom: 0.03%;
   left: calc(50% - 225px);
   max-height: 100%;
@@ -354,12 +341,12 @@
   position: relative;
 }
 .screen2 {
-  height: 1042px;
+  height: 1083px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 60px 46px 0;
+  padding: 60px var(--padding-27xl) 0;
   box-sizing: border-box;
   gap: 48px;
   background-image: url(./public/screen2@3x.png);
@@ -367,9 +354,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .and-thats-not {
   margin: 0;
@@ -379,9 +366,9 @@
   font-family: inherit;
 }
 .the-green-programme-container {
-  width: 285px;
+  width: 336px;
   position: relative;
-  font-size: 17px;
+  font-size: var(--font-size-mid);
   letter-spacing: -0.01em;
   line-height: 23px;
   display: inline-block;
@@ -395,19 +382,19 @@
 }
 .screen4-description {
   width: 358px;
-  height: 77.01%;
+  height: 69.23%;
   margin: 0 !important;
   position: absolute;
-  top: 12.57%;
-  bottom: 10.43%;
+  top: 11.3%;
+  bottom: 19.47%;
   left: calc(50% - 180px);
   gap: 18px;
   z-index: 0;
 }
 .screen4tophalf {
   align-self: stretch;
-  height: 374px;
-  padding: 46px 46px 0;
+  height: 416px;
+  padding: var(--padding-27xl) var(--padding-27xl) 0;
   box-sizing: border-box;
   position: relative;
   background-image: url(./public/screen4tophalf@3x.png);
@@ -415,9 +402,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 35px;
-  color: #005339;
-  font-family: Inter;
+  font-size: var(--font-size-16xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
 }
 .can-you-guess,
 .greenline-icon2 {
@@ -446,6 +433,10 @@
 .here {
   text-decoration: underline;
 }
+.green-programme {
+  font-weight: 800;
+  font-family: var(--font-inter);
+}
 .goes-to-show-container,
 .since-2021-grab {
   letter-spacing: -0.01em;
@@ -463,7 +454,7 @@
 .since-2021-grab {
   width: 242px;
   position: relative;
-  font-size: 17px;
+  font-size: var(--font-size-mid);
   font-weight: 500;
 }
 .screen5-title {
@@ -480,7 +471,7 @@
   justify-content: flex-start;
   gap: 12px;
   z-index: 3;
-  font-size: 35px;
+  font-size: var(--font-size-16xl);
 }
 .group-icon {
   position: absolute;
@@ -512,7 +503,7 @@
   z-index: 4;
   text-align: center;
   font-size: 21px;
-  color: #005339;
+  color: var(--color-darkslategray);
 }
 .animation4-icon,
 .button2-icon {
@@ -545,7 +536,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 40px 46px;
+  padding: var(--padding-21xl) var(--padding-27xl);
   box-sizing: border-box;
   position: relative;
   gap: 69px;
@@ -554,9 +545,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 17px;
-  color: #fff;
-  font-family: Inter;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
 .source {
   margin: 0;
@@ -596,9 +587,9 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: 11px;
-  color: #fff;
-  font-family: Inter;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
 .grab-ph-en {
   width: 450px;
